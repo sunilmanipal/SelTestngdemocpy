@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [selenium testing]">
+  <test name="smoke test(failed)">
+    <classes>
+      <class name="testNG_Annotations.GroupExercise2">
+        <methods>
+          <include name="Test1"/>
+          <include name="Test2"/>
+        </methods>
+      </class> <!-- testNG_Annotations.GroupExercise2 -->
+    </classes>
+  </test> <!-- smoke test(failed) -->
+</suite> <!-- Failed suite [selenium testing] -->

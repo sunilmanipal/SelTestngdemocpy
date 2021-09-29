@@ -1,0 +1,15 @@
+  <suite name="parallel execution" parallel="tests">
+	<test name="firefox_parallel">
+	<parameter name="mybrowser" value="chrome"/>
+		<classes>
+			<class name="testNG_Annotations.ParallelEnhanced"/>
+		</classes>
+	</test>
+	
+	<test name="chrome_parallel1">
+	<parameter name="mybrowser" value="firefox"/>
+		<classes>
+			<class name="testNG_Annotations.ParallelEnhanced"/>
+		</classes>
+	</test>
+</suite>

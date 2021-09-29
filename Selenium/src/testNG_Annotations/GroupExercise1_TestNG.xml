@@ -1,0 +1,12 @@
+<suite name="selenium testing">
+	<test name="smoke test">
+		<groups>
+		<run>
+		<include name="smoke"></include>
+		</run>
+		</groups>
+		<classes>
+			<class name="testNG_Annotations.GroupExercise1"/>
+		</classes>
+	</test>
+</suite>

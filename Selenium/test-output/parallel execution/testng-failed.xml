@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [parallel execution]" parallel="tests">
+  <test thread-count="5" name="firefox_parallel(failed)" parallel="tests">
+    <parameter name="mybrowser" value="firefox"/>
+    <classes>
+      <class name="testNG_Annotations.ParallelEnhanced">
+        <methods>
+          <include name="launch"/>
+          <include name="Google"/>
+        </methods>
+      </class> <!-- testNG_Annotations.ParallelEnhanced -->
+    </classes>
+  </test> <!-- firefox_parallel(failed) -->
+</suite> <!-- Failed suite [parallel execution] -->
